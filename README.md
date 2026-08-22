@@ -1,4 +1,4 @@
-# ASTTRA AI Development Governance
+# ASTRA AI Development Governance Skill
 
 [English](#english) · [简体中文](#简体中文)
 
@@ -119,14 +119,14 @@ Responsibilities:
 
 ```powershell
 New-Item -ItemType Directory -Force -Path "$HOME\.agents\skills" | Out-Null
-git clone https://github.com/marcusackilieshong-design/ASTTRA-AI-Development-Governance.git "$HOME\.agents\skills\ai-development-governance"
+git clone https://github.com/marcusackilieshong-design/ASTRA-AI-Development-Governance-Skill.git "$HOME\.agents\skills\ai-development-governance"
 ```
 
 #### macOS / Linux
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/marcusackilieshong-design/ASTTRA-AI-Development-Governance.git "$HOME/.agents/skills/ai-development-governance"
+git clone https://github.com/marcusackilieshong-design/ASTRA-AI-Development-Governance-Skill.git "$HOME/.agents/skills/ai-development-governance"
 ```
 
 Codex normally detects the skill automatically. Restart Codex if it does not appear.
@@ -298,7 +298,7 @@ python <skill-directory>/scripts/check_traceability.py <project-root> --full
 ### Skill repository layout
 
 ```text
-ASTTRA-AI-Development-Governance/
+ASTRA-AI-Development-Governance-Skill/
 ├─ SKILL.md
 ├─ README.md
 ├─ agents/
@@ -458,14 +458,14 @@ PROJECT/
 
 ```powershell
 New-Item -ItemType Directory -Force -Path "$HOME\.agents\skills" | Out-Null
-git clone https://github.com/marcusackilieshong-design/ASTTRA-AI-Development-Governance.git "$HOME\.agents\skills\ai-development-governance"
+git clone https://github.com/marcusackilieshong-design/ASTRA-AI-Development-Governance-Skill.git "$HOME\.agents\skills\ai-development-governance"
 ```
 
 #### macOS / Linux
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/marcusackilieshong-design/ASTTRA-AI-Development-Governance.git "$HOME/.agents/skills/ai-development-governance"
+git clone https://github.com/marcusackilieshong-design/ASTRA-AI-Development-Governance-Skill.git "$HOME/.agents/skills/ai-development-governance"
 ```
 
 Codex 通常会自动发现 Skill；如果没有出现，请重启 Codex。
@@ -634,7 +634,7 @@ python <skill-directory>/scripts/check_traceability.py <project-root> --full
 ### Skill 目录
 
 ```text
-ASTTRA-AI-Development-Governance/
+ASTRA-AI-Development-Governance-Skill/
 ├─ SKILL.md
 ├─ README.md
 ├─ agents/
