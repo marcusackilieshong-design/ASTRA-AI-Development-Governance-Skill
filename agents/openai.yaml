@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 开发项目治理"
+  short_description: "为长期软件项目建立可追溯、可恢复的开发治理框架"
+  default_prompt: "使用 $ai-development-governance 初始化或接管长期软件项目的治理框架。"
